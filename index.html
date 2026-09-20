@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlante delle Meridiane</title>
+  <meta name="description" content="Collezione fotografica e geografica di meridiane.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">COLLEZIONE PERSONALE</p>
+        <h1>Atlante delle Meridiane</h1>
+        <p class="subtitle">Fotografie, motti e coordinate delle meridiane incontrate lungo il cammino.</p>
+      </div>
+      <div class="counter"><strong id="count">0</strong><span>meridiane</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar" aria-label="Ricerca">
+      <input id="search" type="search" placeholder="Cerca comune, località, via o motto…">
+      <select id="comune">
+        <option value="">Tutti i comuni</option>
+      </select>
+      <button id="reset" type="button">Azzera filtri</button>
+    </section>
+
+    <section class="layout">
+      <div id="map" aria-label="Mappa delle meridiane"></div>
+      <aside id="details" class="details">
+        <div class="empty">
+          <div class="sun">☀</div>
+          <h2>Seleziona una meridiana</h2>
+          <p>Clicca su un punto della mappa oppure su una scheda qui sotto.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="catalog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CATALOGO</p>
+          <h2>Le meridiane della collezione</h2>
+        </div>
+        <span id="result-count"></span>
+      </div>
+      <div id="cards" class="cards"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Atlante delle Meridiane · Dati e fotografie della collezione personale</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

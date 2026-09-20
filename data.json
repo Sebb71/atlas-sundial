@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bedizzole_via-xx-settembre",
+    "comune": "Bedizzole",
+    "localita": null,
+    "via": "Via XX Settembre",
+    "latitudine": 45.511882,
+    "longitudine": 10.425186,
+    "foto": "foto/Bedizzole_via-XX-settembre_45.511882, 10.425186.jpg",
+    "motto": null,
+    "anno": null,
+    "note": "Nella fotografia non è leggibile con certezza una frase/motto."
+  },
+  {
+    "id": "lonato_piazza-corlo",
+    "comune": "Lonato",
+    "localita": null,
+    "via": "Piazza Corlo",
+    "latitudine": 45.464138,
+    "longitudine": 10.482974,
+    "foto": "foto/Lonato_piazza-Corlo_45.464138, 10.482974.jpg",
+    "motto": null,
+    "anno": 2006,
+    "note": "Sul quadrante sono visibili anche altre iscrizioni; il motto non è identificabile con sufficiente certezza."
+  },
+  {
+    "id": "lonato_via-famiglia",
+    "comune": "Lonato",
+    "localita": null,
+    "via": "Via Famiglia",
+    "latitudine": 45.466506,
+    "longitudine": 10.477181,
+    "foto": "foto/Lonato_via-famiglia_45.466506, 10.477181.jpg",
+    "motto": null,
+    "anno": null,
+    "note": "La superficie della meridiana non presenta un'iscrizione leggibile nella fotografia."
+  },
+  {
+    "id": "maderno_villa-lucia",
+    "comune": "Maderno",
+    "localita": null,
+    "via": "Villa Lucia",
+    "latitudine": 45.637266,
+    "longitudine": 10.600806,
+    "foto": "foto/Maderno_Villa-Lucia_45.637266, 10.600806.jpg",
+    "motto": null,
+    "anno": null,
+    "note": "Meridiana decorativa; non è leggibile con certezza un motto."
+  },
+  {
+    "id": "muscoline_fraz-morsone",
+    "comune": "Muscoline",
+    "localita": "Morsone",
+    "via": null,
+    "latitudine": 45.558316,
+    "longitudine": 10.470399,
+    "foto": "foto/Muscoline_fraz-Morsone_45.558316, 10.470399.jpg",
+    "motto": "HORAS TIBI SERENAS",
+    "anno": null,
+    "note": "È visibile anche l'iscrizione PONAVINI sul cartiglio inferiore."
+  }
+]
