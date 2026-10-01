@@ -14,7 +14,7 @@
       <div>
         <p class="eyebrow">COLLEZIONE PERSONALE</p>
         <h1>Atlante delle Meridiane</h1>
-        <p class="subtitle">Fotografie, motti e coordinate delle meridiane incontrate lungo il cammino.</p>
+        <p class="subtitle">Fotografie e informazioni sulle meridiane incontrate lungo il cammino.</p>
       </div>
       <div class="counter"><strong id="count">0</strong><span>meridiane</span></div>
     </div>
@@ -22,34 +22,33 @@
 
   <main>
     <section class="toolbar" aria-label="Ricerca">
-      <input id="search" type="search" placeholder="Cerca comune, località, via o motto…">
-      <select id="comune">
+<select id="comune">
         <option value="">Tutti i comuni</option>
       </select>
-      <button id="reset" type="button">Azzera filtri</button>
-    </section>
+</section>
 
     <section class="layout">
-      <div id="map" aria-label="Mappa delle meridiane"></div>
-      <aside id="details" class="details">
-        <div class="empty">
-          <div class="sun">☀</div>
-          <h2>Seleziona una meridiana</h2>
-          <p>Clicca su un punto della mappa oppure su una scheda qui sotto.</p>
-        </div>
-      </aside>
+      <div class="map-area">
+        <div id="map" aria-label="Mappa delle meridiane"></div>
+      </div>
+      <aside id="side-panel" class="side-panel">
+  <div id="catalog-panel" class="catalog-panel">
+    <div class="catalog-header">
+      <label for="comune"><span class="eyebrow">COMUNE</span></label>
+      
+    </div>
+    <div id="details" class="details">
+      <div class="empty">
+        <div class="sun">☀</div>
+        <p>Seleziona un comune dall'elenco oppure clicca un sole sulla mappa.</p>
+      </div>
+    </div>
+    <div id="municipality-list" class="municipality-list"></div>
+  </div>
+</aside>
     </section>
 
-    <section class="catalog">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">CATALOGO</p>
-          <h2>Le meridiane della collezione</h2>
-        </div>
-        <span id="result-count"></span>
-      </div>
-      <div id="cards" class="cards"></div>
-    </section>
+
   </main>
 
   <footer>
