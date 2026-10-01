@@ -5,9 +5,9 @@
     "localita": "",
     "foto": "catalogo/foto/meridiana_001.jpg",
     "motto": "",
-    "anno fotografia": "Nella fotografia non è leggibile con certezza una frase/motto.",
+    "anno fotografia": "2021",
     "google maps": "",
-    "note": ""
+    "note": "Nella fotografia non è leggibile con certezza una frase/motto."
   },
   {
     "id": 2,
@@ -25,9 +25,9 @@
     "localita": "",
     "foto": "catalogo/foto/meridiana_003.jpg",
     "motto": "",
-    "anno fotografia": "La superficie della meridiana non presenta un'iscrizione leggibile nella fotografia.",
+    "anno fotografia": "2021",
     "google maps": "",
-    "note": ""
+    "note": "La superficie della meridiana non presenta un'iscrizione leggibile nella fotografia."
   },
   {
     "id": 4,
@@ -35,19 +35,19 @@
     "localita": "",
     "foto": "catalogo/foto/meridiana_004.jpg",
     "motto": "",
-    "anno fotografia": "Meridiana decorativa; non è leggibile con certezza un motto.",
+    "anno fotografia": "2021",
     "google maps": "",
-    "note": ""
+    "note": "Meridiana decorativa; non è leggibile con certezza un motto."
   },
   {
     "id": 5,
     "comune": "Muscoline",
     "localita": "",
     "foto": "catalogo/foto/meridiana_005.jpg",
-    "motto": "HORAS TIBI SERENAS",
-    "anno fotografia": "",
-    "google maps": "È visibile anche l'iscrizione PONAVINI sul cartiglio inferiore.",
-    "note": ""
+    "motto": "Horas Tibi Serenas",
+    "anno fotografia": "2021",
+    "google maps": "",
+    "note": "È visibile anche l'iscrizione PONAVINI sul cartiglio inferiore."
   },
   {
     "id": 6,
@@ -68,5 +68,15 @@
     "anno fotografia": "2021",
     "google maps": "https://maps.app.goo.gl/fzzntanqa6mNKqgo8",
     "note": "Curioso, esposta a nord"
+  },
+  {
+    "id": 8,
+    "comune": "Lonato",
+    "localita": "Esenta",
+    "foto": "catalogo/foto/meridiana_008.jpeg",
+    "motto": "Son figlia del sol, sebben son ombra",
+    "anno fotografia": "2022",
+    "google maps": "https://maps.app.goo.gl/3E1oJSUBhFasXZd4A",
+    "note": ""
   }
 ]
